@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <title>HTML Forms</title>
+  <body>
+    <h1>HTML FORMS</h1>
+
+    <form>
+      <label for="iUsername">Username:</label>
+      <input type="text" id="iUsername" name="iUsername" required />
+      <br /><br />
+      <label for="iEmail">Email:</label>
+      <input
+        type="email"
+        id="iEmail"
+        name="iEmail"
+        placeholder="test@example.mail"
+      />
+      <br /><br />
+      <label for="iPassword">Password:</label>
+      <input type="password" id="iPassword" name="iPassword" />
+      <br /><br />
+      <p>Select your age:</p>
+      <input type="radio" name="iAge" value="0-25" id="option-1" />
+      <label for="option-1">0-25</label>
+      <input type="radio" name="iAge" value="26-50" id="option-2" />
+      <label for="option-2">26-50</label>
+      <input type="radio" name="iAge" value="51+" id="option-3" />
+      <label for="option-3">51+</label>
+
+      <br /><br /><br /><br />
+      <label for="sQuestion">Security question</label>
+      <select name="sQuestion" id="sQuestion">
+        <option value="q1">What Color are your favorite pair of socks</option>
+        <option value="q2">What is your favorite food</option>
+        <option value="q3">What is your favorite color</option>
+      </select>
+      <br /><br />
+      <label for="iAnswer">Security question answer</label>
+      <input
+        type="text"
+        id="iAnswer"
+        name="iAnswer"
+        placeholder="for example green"
+      />
+
+      <br /><br /><br /><br />
+      <label for="tBio">Your Biographie:</label><br />
+      <textarea
+        name="tBio"
+        id="tBio"
+        cols="50"
+        rows="10"
+        placeholder="about you..."
+      ></textarea>
+      <br /><br />
+      <input type="submit" value="Submit the form" />
+    </form>
+  </body>
+</html>
