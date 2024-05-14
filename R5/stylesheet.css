@@ -1,6 +1,39 @@
-p {
+/* p {
   color: black;
 }
 .error {
   color: red;
+}
+ */
+div .error {
+  color: red;
+}
+body {
+  background-color: lightgrey;
+}
+a[href*="google"] {
+  background-color: coral;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+a[href*="google"]:hover {
+  background-color: lightcoral;
+}
+
+a[href*="github"] {
+  background-color: purple;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+a[href*="github"]:hover {
+  background-color: plum;
 }
